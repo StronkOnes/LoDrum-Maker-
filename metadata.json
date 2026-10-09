@@ -1,0 +1,6 @@
+{
+  "name": "LoDrum Maker",
+  "description": "Original log drum synthesizer and pattern creator by The Plugin Foundry for Amapiano, Gqom, and modern bass music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  .font-mono, code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom precision styling for audio hardware aesthetic */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0f1117;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #272c38;
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #3b4255;
+}
+
+/* User select none for audio drag controls */
+.knob-drag {
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
